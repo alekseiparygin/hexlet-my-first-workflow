@@ -2,7 +2,7 @@ name: say-hello
 on: push
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
       - run: make say-hello
